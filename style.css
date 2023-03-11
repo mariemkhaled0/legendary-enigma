@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: hsl(0, 0%, 81%);
+  font-family: "Bai Jamjuree", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Fraunces", serif;
+  font-family: "Karla", sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+}
+.container {
+  display: grid;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 1000px;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px 20px;
+}
+.container .Daniel {
+  background-color: hsl(263, 55%, 52%);
+  color: white;
+  grid-column: 1 / 3;
+  padding: 30px;
+  border-radius: 10px;
+}
+.container .jonathen {
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+.container .kira {
+  grid-column: 4/4;
+  grid-row: 1/-1;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+.container .patrick {
+  grid-column: 2 / span 2;
+  background-color: hsl(219, 29%, 14%);
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+.container .jeanette {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+.container .sec1 {
+  display: flex;
+  margin-bottom: 20px;
+}
+.container .sec1 img {
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 10px;
+}
+.container .text {
+  margin-top: 10px;
+}
+.container .sec1 .text h6 {
+  font-size: larger;
+}
+.container .p1 {
+  margin-top: 10px;
+}
+.container h2 {
+  margin-bottom: 20px;
+}
